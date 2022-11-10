@@ -38,6 +38,7 @@ pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="MesloL
 echo 
 
 echo -e "${RED}Removing book.tex${NC}"
-rm book.tex
+echo 
+#rm book.tex
 
 
