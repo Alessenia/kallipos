@@ -39,6 +39,6 @@ echo
 
 echo -e "${RED}Removing book.tex${NC}"
 echo 
-#rm book.tex
+
 
 
