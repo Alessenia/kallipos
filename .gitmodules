@@ -14,7 +14,7 @@
 	url = https://github.com/pibook/images
 [submodule "text"]
 	path = text
-	url = https://github.com/mibook/text.git
+	url = https://github.com/Alessenia/text.git
 	branch = main
 [submodule "bibliography"]
 	path = bibliography
