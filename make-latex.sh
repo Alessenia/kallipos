@@ -37,8 +37,8 @@ echo -e "${RED}Converting latex/book.tex to book.pdf${NC}"
 pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="Computer Modern Regular" --variable sansfont="Computer Modern Regular" --variable monofont="Computer Modern Regular" --variable fontsize=12pt --variable version=2.0 book.tex  --pdf-engine=xelatex --toc -o book.pdf
 echo 
 
-echo -e "${RED}Removing book.tex${NC}"
-echo 
+#echo -e "${RED}Removing book.tex${NC}"
+#echo 
 
 
 
