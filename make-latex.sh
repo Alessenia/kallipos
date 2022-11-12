@@ -34,7 +34,7 @@ pandoc -s latex/*.tex -o book.tex
 echo 
 
 echo -e "${RED}Converting latex/book.tex to book.pdf${NC}"
-pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="MesloLGS NF Regular" --variable sansfont="MesloLGS NF Regular" --variable monofont="MesloLGS NF Regular" --variable fontsize=12pt --variable version=2.0 book.tex  --pdf-engine=xelatex --toc -o book/book.pdf
+pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="stepgreek" --variable sansfont="stepgreek" --variable monofont="stepgreek" --variable fontsize=12pt --variable version=2.0 book.tex  --pdf-engine=xelatex --toc -o book/book.pdf
 echo 
 
 echo -e "${RED}Removing book.tex${NC}"
